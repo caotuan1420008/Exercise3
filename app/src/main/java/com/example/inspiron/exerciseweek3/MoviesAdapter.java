@@ -60,7 +60,7 @@ public class MoviesAdapter extends RecyclerView.Adapter<MoviesAdapter.ViewHolder
         ImageView imPoster = viewHolder.imgPoster;
         Picasso.get().load("http://image.tmdb.org/t/p/w500/" + movie.getPoster_path()).into(imPoster);
         ImageButton btnPlay = viewHolder.btnVideo;
-        btnPlay.setBackgroundResource(movie.isVideo(movie.getVideo()) ? R.drawable.button_3_512 : R.drawable.button_3_512);
+        btnPlay.setBackgroundResource(movie.isVideo(movie.getVideo()) ? R.drawable.button_3_512 : R.drawable.prohibited_155486_640);
 
 
 
